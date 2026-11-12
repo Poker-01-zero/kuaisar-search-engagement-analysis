@@ -1,0 +1,12 @@
+{
+  "dataset": "KuaiSAR-small",
+  "archive_md5": "daea8cbf605db6bd5841740f0e4a12d9",
+  "timezone": "Asia/Shanghai",
+  "complete_date_start": "2023-05-23",
+  "complete_date_end": "2023-05-30",
+  "scope": "all published users in small version",
+  "minimum_sessions_for_comparison": 100,
+  "minimum_users_for_comparison": 30,
+  "seed": 20261111,
+  "chunksize": 200000
+}

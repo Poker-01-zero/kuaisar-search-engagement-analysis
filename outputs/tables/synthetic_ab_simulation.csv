@@ -1,0 +1,3 @@
+scenario,runs,rejection_fraction
+null,2000,0.0545
+preset_effect,2000,0.7985

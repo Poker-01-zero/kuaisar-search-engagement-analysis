@@ -1,0 +1,7 @@
+﻿claim,value,file,code
+行为分析行数,10664332.0,outputs/audit/data_inventory.csv,src/prepare.py
+合法搜索会话,251336.0,outputs/audit/quality_report.json,src/metrics.py
+两大来源点击率差百分点,3.887433872559354,outputs/tables/search_source_metrics.csv,src/search_analysis.py
+共同层标准化差百分点,-0.17708808020370226,outputs/tables/search_standardized.csv,src/search_analysis.py
+完整日合法时长内容记录,6509683.0,outputs/tables/content_duration_metrics.csv,src/content_analysis.py
+模拟差异百分点,0.40973765415240476,outputs/tables/synthetic_ab_summary.json,src/ab_analysis.py

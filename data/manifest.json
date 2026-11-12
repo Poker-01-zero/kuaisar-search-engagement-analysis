@@ -1,0 +1,74 @@
+{
+  "dataset": "KuaiSAR-small",
+  "archive_bytes": 488077651,
+  "archive_md5": "daea8cbf605db6bd5841740f0e4a12d9",
+  "source": "https://zenodo.org/records/8181109",
+  "scope": "all published users in small version",
+  "sampling": "none; all published rows",
+  "selected_users": 25877,
+  "complete_dates": [
+    "2023-05-23",
+    "2023-05-30"
+  ],
+  "actual_time_ranges": {
+    "src_inter.csv": {
+      "min": "2023-05-22 14:50:07.542000+08:00",
+      "max": "2023-05-31 14:21:25.848000+08:00",
+      "invalid": 0,
+      "human_time_mismatches": 0,
+      "unit": "milliseconds",
+      "timezone": "Asia/Shanghai"
+    },
+    "rec_inter.csv": {
+      "min": "2023-05-22 14:50:00.151000+08:00",
+      "max": "2023-05-31 14:49:34.249000+08:00",
+      "invalid": 0,
+      "human_time_mismatches": 0,
+      "unit": "milliseconds",
+      "timezone": "Asia/Shanghai"
+    }
+  },
+  "files": [
+    {
+      "file": "user_features.csv",
+      "bytes": 351244,
+      "rows": 25877,
+      "columns": 5,
+      "loaded_columns": 3
+    },
+    {
+      "file": "src_inter.csv",
+      "bytes": 333032433,
+      "rows": 3171231,
+      "columns": 9,
+      "loaded_columns": 8
+    },
+    {
+      "file": "item_features.csv",
+      "bytes": 1241960087,
+      "rows": 4157218,
+      "columns": 19,
+      "loaded_columns": 4
+    },
+    {
+      "file": "rec_inter.csv",
+      "bytes": 567946737,
+      "rows": 7493101,
+      "columns": 12,
+      "loaded_columns": 9
+    }
+  ],
+  "python": "3.14.6",
+  "config": {
+    "dataset": "KuaiSAR-small",
+    "archive_md5": "daea8cbf605db6bd5841740f0e4a12d9",
+    "timezone": "Asia/Shanghai",
+    "complete_date_start": "2023-05-23",
+    "complete_date_end": "2023-05-30",
+    "scope": "all published users in small version",
+    "minimum_sessions_for_comparison": 100,
+    "minimum_users_for_comparison": 30,
+    "seed": 20261111,
+    "chunksize": 200000
+  }
+}

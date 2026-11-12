@@ -1,0 +1,5 @@
+file,bytes,rows,columns,loaded_columns
+user_features.csv,351244,25877,5,3
+src_inter.csv,333032433,3171231,9,8
+item_features.csv,1241960087,4157218,19,4
+rec_inter.csv,567946737,7493101,12,9

@@ -1,0 +1,232 @@
+{
+  "user_features.csv": {
+    "duplicate_full_row_hashes": 0,
+    "duplicate_policy": "preserved; 64-bit all-original-field hash diagnostic",
+    "first_block_memory": {
+      "rows": 25877,
+      "selected_column_bytes": 621180
+    },
+    "loaded_columns": [
+      "user_id",
+      "search_active_level",
+      "reco_active_level"
+    ],
+    "loaded_memory_bytes": 621180
+  },
+  "src_inter.csv": {
+    "duplicate_full_row_hashes": 720,
+    "duplicate_policy": "preserved; 64-bit all-original-field hash diagnostic",
+    "first_block_memory": {
+      "rows": 200000,
+      "selected_column_bytes": 19797341
+    },
+    "loaded_columns": [
+      "user_id",
+      "item_id",
+      "search_session_id",
+      "search_source",
+      "item_type",
+      "click_cnt",
+      "search_session_timestamp",
+      "search_session_time"
+    ],
+    "loaded_memory_bytes": 314235793,
+    "time": {
+      "min": "2023-05-22 14:50:07.542000+08:00",
+      "max": "2023-05-31 14:21:25.848000+08:00",
+      "invalid": 0,
+      "human_time_mismatches": 0,
+      "unit": "milliseconds",
+      "timezone": "Asia/Shanghai"
+    },
+    "click_values": {
+      "0": 2800707,
+      "1": 351375,
+      "2": 16888,
+      "3": 1693,
+      "4": 336,
+      "5": 107,
+      "6": 41,
+      "7": 20,
+      "8": 11,
+      "9": 9,
+      "12": 7,
+      "11": 4,
+      "10": 4,
+      "13": 3,
+      "27": 2,
+      "44": 2,
+      "67": 2,
+      "17": 2,
+      "14": 2,
+      "94": 1,
+      "50": 1,
+      "24": 1,
+      "15": 1,
+      "148": 1,
+      "162": 1,
+      "115": 1,
+      "134": 1,
+      "18": 1,
+      "66": 1,
+      "36": 1,
+      "35": 1,
+      "86": 1,
+      "25": 1,
+      "22": 1,
+      "21": 1
+    },
+    "result_types": {
+      "VIDEO": 2275388,
+      "IMAGE_ATLAS": 527535,
+      "ADVERT": 114856,
+      "USER": 87318,
+      "UNKNOWN": 81368,
+      "LIVE": 47997,
+      "COMMODITY": 34374,
+      "MUSIC": 2395
+    }
+  },
+  "search_sessions": {
+    "input_rows": 3171231,
+    "missing_key_rows": 0,
+    "total_sessions": 267608,
+    "invalid_sessions": 16272,
+    "invalid_session_rows": 402811,
+    "source_conflicts": 0,
+    "timestamp_conflicts": 0
+  },
+  "search_users": {
+    "dimension_users": 25877,
+    "valid_search_users": 25722,
+    "no_valid_search_users": 155
+  },
+  "click_contract": {
+    "nonbinary_rows": 19149,
+    "strict_excluded_sessions": 16272,
+    "alternative_valid_complete_sessions": 244157,
+    "decision": "strict binary official contract primary; positive-value assumption sensitivity only; raw magnitudes not summed as clicks"
+  },
+  "sql_check": {
+    "engine": "3.53.2",
+    "passed": true,
+    "sources": 7,
+    "columns": [
+      "source",
+      "users",
+      "sessions",
+      "clicked_sessions",
+      "result_rows",
+      "clicked_rows",
+      "session_click_rate"
+    ]
+  },
+  "development_check": {
+    "users_selected": 200,
+    "rows": 23711,
+    "chunk_filter_equals_whole": true
+  },
+  "item_features.csv": {
+    "duplicate_full_row_hashes": 0,
+    "duplicate_policy": "preserved; 64-bit all-original-field hash diagnostic",
+    "first_block_memory": {
+      "rows": 200000,
+      "selected_column_bytes": 9405215
+    },
+    "loaded_columns": [
+      "item_id",
+      "item_type",
+      "first_level_category_id",
+      "first_level_category_name_en"
+    ],
+    "loaded_memory_bytes": 200109485
+  },
+  "rec_inter.csv": {
+    "duplicate_full_row_hashes": 0,
+    "duplicate_policy": "preserved; 64-bit all-original-field hash diagnostic",
+    "first_block_memory": {
+      "rows": 200000,
+      "selected_column_bytes": 18200132
+    },
+    "loaded_columns": [
+      "user_id",
+      "item_id",
+      "duration_ms",
+      "playing_time",
+      "timestamp",
+      "time",
+      "click",
+      "like",
+      "follow"
+    ],
+    "loaded_memory_bytes": 681872323,
+    "time": {
+      "min": "2023-05-22 14:50:00.151000+08:00",
+      "max": "2023-05-31 14:49:34.249000+08:00",
+      "invalid": 0,
+      "human_time_mismatches": 0,
+      "unit": "milliseconds",
+      "timezone": "Asia/Shanghai"
+    },
+    "click_values": {
+      "0": 3783587,
+      "1": 3709514
+    }
+  },
+  "content_join_comparison": {
+    "all": {
+      "rows": 7493101,
+      "users": 25877,
+      "like_rate": 0.03201611722569868
+    },
+    "matched": {
+      "rows": 7493101,
+      "users": 25877,
+      "like_rate": 0.03201611722569868
+    },
+    "unmatched": {
+      "rows": 0,
+      "users": 0,
+      "like_rate": null
+    }
+  },
+  "item_attribute_warning": {
+    "unexpected_type_records": 55,
+    "policy": "unexpected content type kept as unverified; category ID and English label retained; no media inference"
+  },
+  "content": {
+    "all_rows": 7493101,
+    "invalid_duration_rows": 279629,
+    "zero_duration_rows": 279629,
+    "negative_duration_rows": 0,
+    "negative_play_rows": 0,
+    "invalid_feedback_rows": 0,
+    "type_scope": "legal duration content; no complete video/image mapping available",
+    "content_item_types": {
+      "NORMAL": 7434369,
+      "AD": 35941,
+      "UNKNOW": 22736,
+      "一看就是亲生的": 20,
+      "如今却再也回不去了": 13,
+      "炒作涉华议题": 4,
+      "由指令长景海鹏 航天飞行工程师朱杨柱 载荷专家桂海潮3名航天员执行神舟十六号载人飞行任务": 3,
+      "中国国内关键信息基础设施的运营者应停止采购美光公司产品。": 3,
+      "中国军事科学研究团队在南海用高超音速导弹模拟打击美国航母的电脑兵推": 2,
+      "就先这样吧.": 2,
+      "张嘴东北粮仓": 2,
+      "那里的性交易泛滥甚至成为了越南第四大产业. ": 1,
+      "张一山为她“发火”": 1,
+      "如果在中国成立的跨境电商公司希音在纽约上市": 1,
+      "已掌握偷鸡": 1,
+      "美国同意将中国赴美航班从目前每周8个班次增加到12班次": 1,
+      "000倍。宇宙中存在直径达1光年的恒星？最大的恒星有多大？如果地球直径达到1光年，人类会老死不相往来吗？": 1
+    },
+    "complete_valid_rows": 6509683,
+    "complete_valid_users": 25509
+  },
+  "runtime": {
+    "seconds_before_reporting": 126.2142883000015,
+    "process_peak_working_set_bytes": 5207445504,
+    "memory_note": "Windows process peak working set; not a performance improvement benchmark"
+  }
+}

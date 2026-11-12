@@ -1,0 +1,29 @@
+{
+  "session_keys_and_row_conservation": true,
+  "search_table_denominators": true,
+  "join_rows_and_users": true,
+  "content_denominators_and_caps": true,
+  "synthetic_independent_statistics": {
+    "pearson_p": 0.24844037201560293,
+    "newcombe_ci": [
+      -0.002862773175078697,
+      0.01105619178992413
+    ],
+    "welch_p": 0.7138180463045156,
+    "passed": true
+  },
+  "notebooks": [
+    {
+      "file": "01_real_analysis.ipynb",
+      "executed": true,
+      "code_cells": 3
+    },
+    {
+      "file": "04_ab_statistics_practice.ipynb",
+      "executed": true,
+      "code_cells": 2
+    }
+  ],
+  "evidence_paths_and_four_figures": true,
+  "passed": true
+}

@@ -1,0 +1,15 @@
+data/raw/
+data/interim/
+outputs/audit/*samples*
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+outputs/audit/search_excluded_sessions.csv
+
+/archive/
+/交接*.md
+/求职*.md
+/项目规划*.md
+/reports/实施验收.md
+/reports/简历候选条目.md
+/reports/项目事实卡与面试提纲.md

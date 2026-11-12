@@ -1,0 +1,4 @@
+join,input_rows,output_rows,matched_rows,coverage,users_before,users_after,checked_sums
+search_user,251336,251336,251336,1.0,25722,25722,"result_rows,clicked_rows,has_click"
+search_item,3171231,3171231,3038362,0.9581017592222074,25877,25877,click_cnt
+recommendation_item,7493101,7493101,7493101,1.0,25877,25877,"playing_time,duration_ms,like,follow"

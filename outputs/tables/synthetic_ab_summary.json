@@ -1,0 +1,37 @@
+{
+  "data_kind": "SYNTHETIC — no real users, no deployed strategy",
+  "seed": 20261111,
+  "baseline_probability": 0.1,
+  "preset_treatment_probability": 0.11,
+  "mde_absolute": 0.009999999999999995,
+  "alpha": 0.05,
+  "target_power": 0.8,
+  "planned_users_per_arm": 14745,
+  "observed_users": 29490,
+  "srm_pvalue": 0.35148437694655055,
+  "difference": 0.004097376541524048,
+  "relative_change": 0.040327534886879235,
+  "ci95_newcombe": [
+    -0.002862773175078697,
+    0.01105619178992413
+  ],
+  "ztest_pvalue": 0.2484403720156073,
+  "welch_revenue_pvalue_exploratory": 0.7138180463045156,
+  "simulations": [
+    {
+      "scenario": "null",
+      "runs": 2000,
+      "rejection_fraction": 0.0545
+    },
+    {
+      "scenario": "preset_effect",
+      "runs": 2000,
+      "rejection_fraction": 0.7985
+    }
+  ],
+  "quality": {
+    "unique_user": true,
+    "missing_cells": 0,
+    "cross_group_users": 0
+  }
+}
